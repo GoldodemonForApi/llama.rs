@@ -21,10 +21,10 @@ Once installed:
 
 ```sh
 # Download and run a model directly from Hugging Face
-llama cli pull ggml-org/Qwen3.5-0.8B-GGUF
+llama cli pull Qwen/Qwen3.5-0.8B-GGUF --HF
 
 # Launch 
-llama serve run ggml-org/Qwen3.5-0.8B-GGUF
+llama Cli run Qwen/Qwen3.5-0.8B-GGUF --HF
 ```
 
 ## Description
