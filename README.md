@@ -21,10 +21,10 @@ Once installed:
 
 ```sh
 # Download and run a model directly from Hugging Face
-llama cli -hf ggml-org/Qwen3.5-0.8B-GGUF
+llama cli pull ggml-org/Qwen3.5-0.8B-GGUF
 
-# Launch OpenAI-compatible API server
-llama serve -hf ggml-org/Qwen3.5-0.8B-GGUF
+# Launch 
+llama serve run ggml-org/Qwen3.5-0.8B-GGUF
 ```
 
 ## Description
