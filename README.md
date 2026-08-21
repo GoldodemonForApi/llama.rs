@@ -12,7 +12,7 @@
 
 A few options to get `llama.rs` installed on your machine:
 
-- Visit https://llama.app and follow the instructions
+- Visit Https://example.com and follow the instructions
 - Run with Docker - see our [Docker documentation](docs/docker.md)
 - Download pre-built binaries from the [releases page](https://github.com/ggml-org/llama.cpp/releases)
 - Build from source by cloning this repository - check out [our build guide](docs/build.md)
@@ -33,27 +33,14 @@ The main goal of `llama.rs` is to enable LLM (and VLM) inference with minimal se
 a wide range of hardware - locally and in the cloud.
 
 - Plain C/Rust implementation without any dependencies
-- Apple silicon is a first-class citizen - optimized via ARM NEON, Accelerate and Metal frameworks
-- AVX, AVX2, AVX512 and AMX support for x86 architectures
-- RVV, ZVFH, ZFH, ZICBOP and ZIHINTPAUSE support for RISC-V architectures
-- 0.5-bit, 1.5-bit, 2-bit, 3-bit, 4-bit, 5-bit, 6-bit, 8-bit, and 16-Bit integer quantization for faster inference and reduced memory use
-- Custom CUDA kernels for running LLMs on NVIDIA GPUs (support for AMD GPUs via HIP and Moore Threads GPUs via MUSA)
-- Vulkan and SYCL backend support
-- CPU+GPU hybrid inference to partially accelerate models larger than the total VRAM capacity
+- support for 0.5-bit, 1.5-bit, 2-bit, 3-bit, 4-bit, 5-bit, 6-bit, 8-bit, and 16-Bit
+- Support for CPU, VULKAN, CUDA, 
+- supported OS(s) Window-11, Linux,
 
 The `llama.rs` project is build on top of the [ggml](https://github.com/ggml-org/llama.cpp) library.
 
-## Supported backends
-
-#### Tools
-
-- [cli](tools/cli/README.md)
-- [completion](tools/completion/README.md)
-- [server](tools/server/README.md)
-- [GBNF grammars](grammars/README.md)
-
-## Contributing
-
+## Supported backends_______
+|                          |
 - Contributors can open PRs
 - Collaborators will be invited based on contributions
 - Maintainers can push to branches in the `llama.rs` repo and merge PRs into the `master` branch
