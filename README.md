@@ -1,7 +1,5 @@
 # llama.rs
 
-![llama] (https://gemini.google.com/607ddf5f-5f75-4feb-bc1f-1ffb3538c386)
-
 <div align="center">
 
 <b>LLM inference in C/Rust</b>
@@ -34,7 +32,7 @@ llama serve -hf ggml-org/Qwen3.5-0.8B-GGUF
 The main goal of `llama.rs` is to enable LLM (and VLM) inference with minimal setup and state-of-the-art performance on
 a wide range of hardware - locally and in the cloud.
 
-- Plain C/C++ implementation without any dependencies
+- Plain C/Rust implementation without any dependencies
 - Apple silicon is a first-class citizen - optimized via ARM NEON, Accelerate and Metal frameworks
 - AVX, AVX2, AVX512 and AMX support for x86 architectures
 - RVV, ZVFH, ZFH, ZICBOP and ZIHINTPAUSE support for RISC-V architectures
@@ -43,12 +41,9 @@ a wide range of hardware - locally and in the cloud.
 - Vulkan and SYCL backend support
 - CPU+GPU hybrid inference to partially accelerate models larger than the total VRAM capacity
 
-The `llama.rs` project is build on top of the [ggml](https://github.com/ggml-org/ggml) library.
+The `llama.rs` project is build on top of the [ggml](https://github.com/ggml-org/llama.cpp) library.
 
 ## Supported backends
-
-
-## Documentation
 
 #### Tools
 
@@ -56,19 +51,6 @@ The `llama.rs` project is build on top of the [ggml](https://github.com/ggml-org
 - [completion](tools/completion/README.md)
 - [server](tools/server/README.md)
 - [GBNF grammars](grammars/README.md)
-
-#### Development
-
-- [How to build](docs/build.md)
-- [Running on Docker](docs/docker.md)
-- [Build on Android](docs/android.md)
-- [Multi-GPU usage](docs/multi-gpu.md)
-- [Performance troubleshooting](docs/development/token_generation_performance_tips.md)
-- [GGML tips & tricks](https://github.com/ggml-org/llama.cpp/wiki/GGML-Tips-&-Tricks)
-- [XCFramework](docs/xcframework.md)
-- [Completions](docs/completions.md)
-- [Models](docs/models.md)
-- [Release process](docs/release.md)
 
 ## Contributing
 
