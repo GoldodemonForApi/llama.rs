@@ -37,7 +37,7 @@ a wide range of hardware - locally and in the cloud.
 - Support for CPU, VULKAN, CUDA, 
 - supported OS(s) Window-11, Linux,
 
-The `llama.rs` project is build on top of the [ggml](https://github.com/ggml-org/llama.cpp) library.
+The `llama.rs` project is build on top of the [Llama.cppl](https://github.com/ggml-org/llama.cpp)
 
 ## Supported backends_______
 |                          |
