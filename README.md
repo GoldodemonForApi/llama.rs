@@ -1,6 +1,6 @@
 # llama.rs
 
-![llama] ()
+![llama] (https://gemini.google.com/607ddf5f-5f75-4feb-bc1f-1ffb3538c386)
 
 <div align="center">
 
