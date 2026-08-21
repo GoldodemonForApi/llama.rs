@@ -33,11 +33,11 @@ The main goal of `llama.rs` is to enable LLM (and VLM) inference with minimal se
 a wide range of hardware - locally and in the cloud.
 
 - Plain C/Rust implementation without any dependencies
-- support for 0.5-bit, 1.5-bit, 2-bit, 3-bit, 4-bit, 5-bit, 6-bit, 8-bit, and 16-Bit
+- support for 0.5-bit, 1-bit, 1.5-bit, 2-bit, 3-bit, 4-bit, 5-bit, 6-bit, 8-bit, 12-Bit, and 16-Bit
 - Support for CPU, VULKAN, CUDA, 
 - supported OS(s) Window-11, Linux,
 
-The `llama.rs` project is build on top of the [Llama.cppl](https://github.com/ggml-org/llama.cpp)
+The `llama.rs` project is build on top of [Llama.cppl](https://github.com/ggml-org/llama.cpp) and was ported to Rust.
 
 ## Supported backends_______
 |                          |
