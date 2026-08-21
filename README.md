@@ -1,4 +1,4 @@
-# llama.cpp
+# llama.rs
 
 ![llama] ()
 
