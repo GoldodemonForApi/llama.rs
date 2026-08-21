@@ -29,19 +29,6 @@ llama cli -hf ggml-org/Qwen3.5-0.8B-GGUF
 llama serve -hf ggml-org/Qwen3.5-0.8B-GGUF
 ```
 
-<table align="center">
-    <tr>
-        <td align="center" width=50%>
-            <img width="1310" height="888" alt="VLM session with `llama cli`" src="https://github.com/user-attachments/assets/88726b48-1713-48aa-a525-95a02e78afc4" />
-            <i>VLM session with <b>llama cli</b></i>
-        </td>
-        <td align="center">
-            <img width="1392" height="958" alt="Built-in web UI against `llama serve` running Qwen 3.6" src="https://github.com/user-attachments/assets/b402f972-2e32-4def-8771-8d849f08cf2e" />
-            <i>Built-in web UI against <b>llama serve</b></i>
-        </td>
-    </tr>
-<table>
-
 ## Description
 
 The main goal of `llama.rs` is to enable LLM (and VLM) inference with minimal setup and state-of-the-art performance on
